@@ -1,0 +1,192 @@
+
+input {
+    width: 50;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    position: relative;
+  
+  color: rgb(206, 137, 9);
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid rgb(206, 137, 9);
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+
+  
+  }
+
+body{
+    margin: 0;
+    background: #f8faf9;
+
+ }
+
+ div {
+    border: 1px solid rgb(149, 147, 147);
+
+    /* border-top:1px; */
+    /* border-bottom:1px; */
+    /* border-left:1px; */
+    /* border-right:1px; */
+    /* border-width:1px; */
+    /* border-style:solid; */
+    /* border-color:#000;  */
+}
+
+ 
+ #menu ul{
+     margin: 0;
+     background-color: rgb(49, 51, 50);
+     list-style: none;
+
+   
+ }
+
+ #menu ul li{
+     display: inline;
+   
+ }
+
+ #menu ul li a{
+      padding: 20px 100px;
+      display: inline-block;
+
+      color: rgb(206, 137, 9);;
+      text-decoration: none;
+ }
+
+ #menu ul li a:hover{
+
+     color: rgb(242, 242, 246);
+
+
+ }
+
+ #topo {
+    width:1100px;
+    height:240px;
+    
+    
+    background-color:rgba(145, 220, 230, 0.6);
+    /* background-image:url("imagens/arch.jpg"); */
+    /* background-repeat:no-repeat;  /* no-repeat / repeat-x / repeat-y */
+    /* background-position:center; /* left top center bottom right */
+    /* background-size:900px 240px; */
+  
+    border-radius:10px; /* chrome */
+    -moz-border-radius:10px; /* firefox */
+    -webkit-border-radius:10px; /* IE */
+  
+   
+  }
+
+
+ #menu2 ul{
+    margin: 0;
+    background-color: rgb(206, 137, 9);
+    list-style: none;
+
+   
+}
+
+#menu2 ul li{
+    display: inline;
+  
+}
+
+#menu2 ul li a{
+     padding: 20px 35px;
+     display: inline-block;
+
+     color: white;
+     text-decoration: none;
+
+}
+
+#menu2 ul li a:hover{
+
+    color: rgb(242, 242, 246);
+
+
+}
+
+ #geral {
+    width: 1101px;
+     height: 1600px;  /* Comentar essa linha para ficar automática */
+    background-color:  rgb(255, 255, 255);
+    margin: 0 auto ;
+       
+    /* margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin: 10px 100px 100px 150px; */
+
+    /* uma borda arredondada */
+ 
+}
+
+#conteudo {
+    float:left;  /* importante para criar uma coluna lateral */
+    width: 1100px;
+    height: 740x;
+    background-color: rgb(252, 252, 252);
+    
+    
+
+   
+
+    
+
+    
+}
+
+
+
+
+
+#rodape {
+    
+    width:1101px;
+    height: 50px;
+    background-color: rgb(206, 137, 9);
+    
+    clear: both; /* limpa o left e o ritgh - para que a lateral e o conteúdo fiquem um ao lado do outro dentro do geral*/
+   
+
+    
+}
+
+#rodape ul{
+    margin: 0;
+    
+    list-style: none;
+
+   
+}
+
+#rodape ul li{
+    display: inline;
+  
+}
+
+#rodape ul li a{
+     padding: 20px 30px;
+     display: inline-block;
+     
+     color: white;
+     text-decoration: none;
+    
+
+}
+
+#rodade ul li a:hover{
+
+    color: rgb(242, 242, 246);
+
+
+}
